@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+package hw1;
+
+message total_message {
+    required uint32 len = 1;
+    required uint32 type = 2;
+    optional uint32 key = 3;
+    optional string value = 4;
+    optional uint32 count = 5;
+    optional string error = 6;
+    optional string flag = 7;
+}
