@@ -18,58 +18,23 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='hw1',
   syntax='proto2',
   serialized_options=None,
-  serialized_pb=b'\n\rmessage.proto\x12\x03hw1\"d\n\x0ctotalMessage\x12\x0c\n\x04type\x18\x01 \x02(\r\x12\x0b\n\x03key\x18\x02 \x01(\r\x12\r\n\x05value\x18\x03 \x01(\t\x12\r\n\x05\x63ount\x18\x04 \x01(\r\x12\r\n\x05\x65rror\x18\x05 \x01(\t\x12\x0c\n\x04\x66lag\x18\x06 \x01(\t'
+  serialized_pb=b'\n\rmessage.proto\x12\x03hw1\"\x15\n\x05type0\x12\x0c\n\x04type\x18\x01 \x02(\r\"1\n\x05type1\x12\x0c\n\x04type\x18\x01 \x02(\r\x12\x0b\n\x03key\x18\x02 \x02(\r\x12\r\n\x05value\x18\x03 \x02(\t\"\x15\n\x05type2\x12\x0c\n\x04type\x18\x01 \x02(\r\"\"\n\x05type3\x12\x0c\n\x04type\x18\x01 \x02(\r\x12\x0b\n\x03key\x18\x02 \x02(\r\"$\n\x05type4\x12\x0c\n\x04type\x18\x01 \x02(\r\x12\r\n\x05value\x18\x02 \x02(\t\"\x15\n\x05type5\x12\x0c\n\x04type\x18\x01 \x02(\r\"\x15\n\x05type6\x12\x0c\n\x04type\x18\x01 \x02(\r\"$\n\x05type7\x12\x0c\n\x04type\x18\x01 \x02(\r\x12\r\n\x05\x63ount\x18\x02 \x02(\r\"$\n\x05type8\x12\x0c\n\x04type\x18\x01 \x02(\r\x12\r\n\x05\x65rror\x18\x02 \x02(\t\"#\n\x05type9\x12\x0c\n\x04type\x18\x01 \x02(\r\x12\x0c\n\x04\x66lag\x18\x02 \x02(\t'
 )
 
 
 
 
-_TOTALMESSAGE = _descriptor.Descriptor(
-  name='totalMessage',
-  full_name='hw1.totalMessage',
+_TYPE0 = _descriptor.Descriptor(
+  name='type0',
+  full_name='hw1.type0',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='type', full_name='hw1.totalMessage.type', index=0,
+      name='type', full_name='hw1.type0.type', index=0,
       number=1, type=13, cpp_type=3, label=2,
       has_default_value=False, default_value=0,
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      serialized_options=None, file=DESCRIPTOR),
-    _descriptor.FieldDescriptor(
-      name='key', full_name='hw1.totalMessage.key', index=1,
-      number=2, type=13, cpp_type=3, label=1,
-      has_default_value=False, default_value=0,
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      serialized_options=None, file=DESCRIPTOR),
-    _descriptor.FieldDescriptor(
-      name='value', full_name='hw1.totalMessage.value', index=2,
-      number=3, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=b"".decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      serialized_options=None, file=DESCRIPTOR),
-    _descriptor.FieldDescriptor(
-      name='count', full_name='hw1.totalMessage.count', index=3,
-      number=4, type=13, cpp_type=3, label=1,
-      has_default_value=False, default_value=0,
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      serialized_options=None, file=DESCRIPTOR),
-    _descriptor.FieldDescriptor(
-      name='error', full_name='hw1.totalMessage.error', index=4,
-      number=5, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=b"".decode('utf-8'),
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      serialized_options=None, file=DESCRIPTOR),
-    _descriptor.FieldDescriptor(
-      name='flag', full_name='hw1.totalMessage.flag', index=5,
-      number=6, type=9, cpp_type=9, label=1,
-      has_default_value=False, default_value=b"".decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -86,18 +51,418 @@ _TOTALMESSAGE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=22,
-  serialized_end=122,
+  serialized_end=43,
 )
 
-DESCRIPTOR.message_types_by_name['totalMessage'] = _TOTALMESSAGE
+
+_TYPE1 = _descriptor.Descriptor(
+  name='type1',
+  full_name='hw1.type1',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='type', full_name='hw1.type1.type', index=0,
+      number=1, type=13, cpp_type=3, label=2,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='key', full_name='hw1.type1.key', index=1,
+      number=2, type=13, cpp_type=3, label=2,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value', full_name='hw1.type1.value', index=2,
+      number=3, type=9, cpp_type=9, label=2,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto2',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=45,
+  serialized_end=94,
+)
+
+
+_TYPE2 = _descriptor.Descriptor(
+  name='type2',
+  full_name='hw1.type2',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='type', full_name='hw1.type2.type', index=0,
+      number=1, type=13, cpp_type=3, label=2,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto2',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=96,
+  serialized_end=117,
+)
+
+
+_TYPE3 = _descriptor.Descriptor(
+  name='type3',
+  full_name='hw1.type3',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='type', full_name='hw1.type3.type', index=0,
+      number=1, type=13, cpp_type=3, label=2,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='key', full_name='hw1.type3.key', index=1,
+      number=2, type=13, cpp_type=3, label=2,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto2',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=119,
+  serialized_end=153,
+)
+
+
+_TYPE4 = _descriptor.Descriptor(
+  name='type4',
+  full_name='hw1.type4',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='type', full_name='hw1.type4.type', index=0,
+      number=1, type=13, cpp_type=3, label=2,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value', full_name='hw1.type4.value', index=1,
+      number=2, type=9, cpp_type=9, label=2,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto2',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=155,
+  serialized_end=191,
+)
+
+
+_TYPE5 = _descriptor.Descriptor(
+  name='type5',
+  full_name='hw1.type5',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='type', full_name='hw1.type5.type', index=0,
+      number=1, type=13, cpp_type=3, label=2,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto2',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=193,
+  serialized_end=214,
+)
+
+
+_TYPE6 = _descriptor.Descriptor(
+  name='type6',
+  full_name='hw1.type6',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='type', full_name='hw1.type6.type', index=0,
+      number=1, type=13, cpp_type=3, label=2,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto2',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=216,
+  serialized_end=237,
+)
+
+
+_TYPE7 = _descriptor.Descriptor(
+  name='type7',
+  full_name='hw1.type7',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='type', full_name='hw1.type7.type', index=0,
+      number=1, type=13, cpp_type=3, label=2,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='count', full_name='hw1.type7.count', index=1,
+      number=2, type=13, cpp_type=3, label=2,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto2',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=239,
+  serialized_end=275,
+)
+
+
+_TYPE8 = _descriptor.Descriptor(
+  name='type8',
+  full_name='hw1.type8',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='type', full_name='hw1.type8.type', index=0,
+      number=1, type=13, cpp_type=3, label=2,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='error', full_name='hw1.type8.error', index=1,
+      number=2, type=9, cpp_type=9, label=2,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto2',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=277,
+  serialized_end=313,
+)
+
+
+_TYPE9 = _descriptor.Descriptor(
+  name='type9',
+  full_name='hw1.type9',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='type', full_name='hw1.type9.type', index=0,
+      number=1, type=13, cpp_type=3, label=2,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='flag', full_name='hw1.type9.flag', index=1,
+      number=2, type=9, cpp_type=9, label=2,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto2',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=315,
+  serialized_end=350,
+)
+
+DESCRIPTOR.message_types_by_name['type0'] = _TYPE0
+DESCRIPTOR.message_types_by_name['type1'] = _TYPE1
+DESCRIPTOR.message_types_by_name['type2'] = _TYPE2
+DESCRIPTOR.message_types_by_name['type3'] = _TYPE3
+DESCRIPTOR.message_types_by_name['type4'] = _TYPE4
+DESCRIPTOR.message_types_by_name['type5'] = _TYPE5
+DESCRIPTOR.message_types_by_name['type6'] = _TYPE6
+DESCRIPTOR.message_types_by_name['type7'] = _TYPE7
+DESCRIPTOR.message_types_by_name['type8'] = _TYPE8
+DESCRIPTOR.message_types_by_name['type9'] = _TYPE9
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-totalMessage = _reflection.GeneratedProtocolMessageType('totalMessage', (_message.Message,), {
-  'DESCRIPTOR' : _TOTALMESSAGE,
+type0 = _reflection.GeneratedProtocolMessageType('type0', (_message.Message,), {
+  'DESCRIPTOR' : _TYPE0,
   '__module__' : 'message_pb2'
-  # @@protoc_insertion_point(class_scope:hw1.totalMessage)
+  # @@protoc_insertion_point(class_scope:hw1.type0)
   })
-_sym_db.RegisterMessage(totalMessage)
+_sym_db.RegisterMessage(type0)
+
+type1 = _reflection.GeneratedProtocolMessageType('type1', (_message.Message,), {
+  'DESCRIPTOR' : _TYPE1,
+  '__module__' : 'message_pb2'
+  # @@protoc_insertion_point(class_scope:hw1.type1)
+  })
+_sym_db.RegisterMessage(type1)
+
+type2 = _reflection.GeneratedProtocolMessageType('type2', (_message.Message,), {
+  'DESCRIPTOR' : _TYPE2,
+  '__module__' : 'message_pb2'
+  # @@protoc_insertion_point(class_scope:hw1.type2)
+  })
+_sym_db.RegisterMessage(type2)
+
+type3 = _reflection.GeneratedProtocolMessageType('type3', (_message.Message,), {
+  'DESCRIPTOR' : _TYPE3,
+  '__module__' : 'message_pb2'
+  # @@protoc_insertion_point(class_scope:hw1.type3)
+  })
+_sym_db.RegisterMessage(type3)
+
+type4 = _reflection.GeneratedProtocolMessageType('type4', (_message.Message,), {
+  'DESCRIPTOR' : _TYPE4,
+  '__module__' : 'message_pb2'
+  # @@protoc_insertion_point(class_scope:hw1.type4)
+  })
+_sym_db.RegisterMessage(type4)
+
+type5 = _reflection.GeneratedProtocolMessageType('type5', (_message.Message,), {
+  'DESCRIPTOR' : _TYPE5,
+  '__module__' : 'message_pb2'
+  # @@protoc_insertion_point(class_scope:hw1.type5)
+  })
+_sym_db.RegisterMessage(type5)
+
+type6 = _reflection.GeneratedProtocolMessageType('type6', (_message.Message,), {
+  'DESCRIPTOR' : _TYPE6,
+  '__module__' : 'message_pb2'
+  # @@protoc_insertion_point(class_scope:hw1.type6)
+  })
+_sym_db.RegisterMessage(type6)
+
+type7 = _reflection.GeneratedProtocolMessageType('type7', (_message.Message,), {
+  'DESCRIPTOR' : _TYPE7,
+  '__module__' : 'message_pb2'
+  # @@protoc_insertion_point(class_scope:hw1.type7)
+  })
+_sym_db.RegisterMessage(type7)
+
+type8 = _reflection.GeneratedProtocolMessageType('type8', (_message.Message,), {
+  'DESCRIPTOR' : _TYPE8,
+  '__module__' : 'message_pb2'
+  # @@protoc_insertion_point(class_scope:hw1.type8)
+  })
+_sym_db.RegisterMessage(type8)
+
+type9 = _reflection.GeneratedProtocolMessageType('type9', (_message.Message,), {
+  'DESCRIPTOR' : _TYPE9,
+  '__module__' : 'message_pb2'
+  # @@protoc_insertion_point(class_scope:hw1.type9)
+  })
+_sym_db.RegisterMessage(type9)
 
 
 # @@protoc_insertion_point(module_scope)
